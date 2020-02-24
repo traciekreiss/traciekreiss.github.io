@@ -1,0 +1,22 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+<style>
+h1 { 
+  font-size: 30;
+  font-family: 'Raleway', ;
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tracie Marie Kreiss</title>
+  </head>
+  <body>
+    <h1>Hello,</h1>
+    <h2>I'm a researcher and designer based out of San Francisco, California.</h2>
+    <p></p>
+  </body>
+</html>
+
+  

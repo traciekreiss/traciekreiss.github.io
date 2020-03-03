@@ -34,4 +34,8 @@ height: auto;
   </body>
 </html>
 
-  
+  When making layouts for website
+      * Use sections 
+        * Use divs
+
+  Images go on top, even if they end up on the right – this is to make sure it goes on top when the page is in mobile format

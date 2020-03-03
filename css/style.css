@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+h1 { 
+    /* font-size: 30;
+    font-family: 'Raleway', Helvetica; */
+}
+
+h2 { 
+    /* font-size: 20;
+    font-family: 'Raleway', Helvetica; */
+}
+
+/* img {
+    border-radius: 8px;
+    border-padding: 5px;
+    max-width: 50%;
+    height: auto;
+} */
+
+.center-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.hero-box {
+    height: 300px;
+    max-width: 1200px;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.hero-img {
+    height: 100%;
+    width: 50%;
+    background-image: url("/assests/img/cutecat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-text {
+    height: 100%;
+    width: 50%;
+}
+
+.hero-text-child {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}

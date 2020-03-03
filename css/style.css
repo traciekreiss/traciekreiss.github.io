@@ -1,0 +1,34 @@
+h1 { 
+    font-size: 30;
+    font-family: 'Raleway', Helvetica;
+    float: right;
+}
+
+h2 { 
+    font-size: 20;
+    font-family: 'Raleway', Helvetica;
+    float: right;
+}
+
+/* img {
+    border-radius: 8px;
+    border-padding: 5px;
+    max-width: 50%;
+    height: auto;
+} */
+
+.full-width {
+
+}
+
+.hero-box {
+
+}
+
+.hero-img {
+
+}
+
+.hero-text {
+
+}

@@ -1,0 +1,49 @@
+Serve, Postmates X
+    General outline of the page
+        - Blurb about what Serve is
+        - Who are our users: Merchants, Buyers on Postmates, and the general Public
+        - Design challenges: 
+            - a stable/easy to clean/versitile/well insulating cargo, 
+            - intuitive interactions and movement, 
+            - varying degrees of remote teleoperations, 
+            - customer support when no one is there 
+        - Research challenges: 
+            - researching ahead of the hardware timeline and dealing with limited hardware availability, 
+            - prototyping not-yet-implemented designs, 
+            - 
+        - Choose 3 projects to highlight: 
+            - Cargo 1.0 to 1.5 
+
+
+    Research projects 2019, from 1:1 review
+        - Customer support
+        - LA Merchant experience testing
+        - Cargo design and redesign and Merchant testing (1.0 and 1.5)
+        - Initial buyer tests of Serve interactions (in-house and facilitated complicated setup of LA tests)
+        - Expressions testing
+        - EmoteControl Redesign 
+        - Weekly Research : Ops Sync
+        - Management of 100-Delivery Goal 
+
+    Initial buyer tests of Serve interactions
+        Part one: In-house testing
+            Background: Built out Buyer App into a clickable prototype via Figma to test flow before implementation by HQ. 
+                - Used Figma Mirroring to run through prototype with co-workers on teams unfamiliar with the user flow
+                - Any pain points or usability/design suggestions were shared with my team and implemented if in scope
+                - Final flow was sent to HQ to be built out and integrated into the Buyer App
+         [Include the App flow I made here]
+
+            Recruitment: Friends & Family, In-org Participants
+            Context: 
+                Setup: I wrote protocol, moderator's guide for a semi-structured interview, used the Beta app for prerelease, staged testing
+                Research Team: moderator, emotecontroller and notetaker, wizard facilitating Staging order experience 
+                
+
+        Part two: LA Buyer testing
+            Recruitment: External recruitment from a WeWork in LA 
+            Setup: I wrote protocol, moderator's guide for a semi-structured interview, used the production app
+                - Protocol: 
+                    1. Participant places order
+                    2. Moderator performs semi-structured interview throughout the session
+                    3. A first generation of Serve rovers "delivers" the participant's order
+                

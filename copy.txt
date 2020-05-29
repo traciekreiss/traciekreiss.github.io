@@ -47,3 +47,89 @@ Serve, Postmates X
                     2. Moderator performs semi-structured interview throughout the session
                     3. A first generation of Serve rovers "delivers" the participant's order
                 
+        Cargo Design    
+            Part One: Understanding the problem
+                - Interviewed Fleet for cargo transport issues
+                - got metrics for order sizes (pizzas, drinks, average order sizes, etc.)
+                    - essential to make sure that we can accomodate the most frequent order sizes and compositions/items
+            Part Two: Iterate for our first cargo solution
+                - moveable parts (cupholders, straps for securing food, fold out pizza shelves, gimbles for leveling food over bumps)
+                - Brought on NDD to help (made two lasercut insert options and manufactured a removable soft liner)
+            Part Three: Test inserts with merchants
+        Cargo Design (1.6 only)
+            Design
+                - Requirements: stabilize sm to med orders, handle at >2 drinks, 14" pizzas (flat), minimize spacial packaging for serve deliveries, easy loading and unloading
+                - Designed 4 possible configurations out of foamcore to be tested with Merchants
+            Testing with Merchants 
+                - brought foamcore reps of designs to 4-5 merchants 
+            Final Design 
+                - interated based on findings
+                - spill tested final design to ensure order stability for clamshells, drinks, and pizzas (etc.)
+        Pilot Experience Research
+            - Release training and observation: Training pilots on new software features and observing their first interactions with it
+            - Quiet Comms/Handler Away: observed pilots first attempts to pilot rovers without handler input or support on the street. Identified shortcomings in the UI that prevented us from moving to handler away. 
+            - Reducing congnitive load: observed what tools were essential to pilot workflow, advised how these tools could be simplified for faster, more intuitive use, and uncovered extra tools that could be removed from the workflow. 
+
+
+
+_____________________________________________________________________________________________
+Real Copy for Website
+
+    Project Page: Serve, Postmates X
+        Serve, Postmates X
+        Serve is an autonomous sidewalk delivery robot designed to take short distance, low-profit deliveries. Through the use of lidar and other sensors, Serve is ablt to safely and intelligently navigate busy sidewalks, while keeping orders secure in it's loved cargo bin.
+
+        What I do...
+        My job is to investigate the experience of our users, such as buyers, merchants, the public, as well as our skilled pilots monitoring each robot behind the scenes. I make recommendations to my team based off of my findings in an effort to create the very best product we can.
+
+    Buyer Interaction Research
+        Understanding the experience of our Buyers is essential to the success of our product. Recieving a delivery from Serve is an expereince entirely different from that of a traditional Postmate. This means that a new app flow had to be designed that would seamlessly guide our users through the experience. Once we had designed what this experience would be, from the moment you are matched with Serve for your delivery to the moment Serve leaves your house, we had to test it with real users. 
+
+        Stages of Buyer Interaction Research [Tab system]
+
+        Prototype Testing
+        To ensure that our design was intuitive and thorough, I put together a clickable prototype in Figma that allowed participants to click through the experience end-to-end. This prototype gave the opportunity for us to get prelimiary feedback on the flow and to make necessary changes before handing our comps off to HQ for integration into the app. 
+
+        This test was performed with in-house team members, who had never seen the app flow before. They helped to identify unclear copy, usability concerns, and overall validate the flow. I then presented these findings to me team for final iteration before handoff.
+
+        [insert prototype made with ... ]
+
+        Beta Testing
+        Once our prototype had been integrated into the Beta version of the Postmates app, I was able to start staging end-to-end deliveries with the help of friends and family participants. To do this, I assembled a team of three: a moderator, a notetaker, and a wizard. Out of these three jobs, the wizard's was the most complicated, for it was their job to manually enter commands into the CLI to progress the delivery via the backend. 
+
+        While complicated, this staged testing allowed us to uncover a variety of UX issues that broke the experience for our Buyers. One of the biggest being that many of the participants didn't even realize a robot was coming to deliver their food! To address these issues, I presented a full end-to-end run through to the HQ team that both validated the flow and highlighted its pitfalls. 
+
+        [insert photo of Jong]
+
+        Production Testing
+        Once our work finally hit the Production app, it was time to test it in the real world. Since our launching market was in LA, we hopped on a plane to sunny West Hollywood. Once there, we began testing with a variety of volunteers from a local WeWork stationed close to a handful of our on-boarded Merchants. 
+        
+        At the time, the experience still required a lot of handholding, so the team we assembled consisted of x: a pilot, a handler, two moderators, and two wizards. The pilot and handler were responsible for getting the robot from Merchant to Buyer. The moderators interviewed the participants. One of the wizards was again in charge of the CLI for progressing the deliveries. The second wizard was responsible for manually triggering the expressions that play on the robot, since we had yet to implement autonomy. 
+
+        This study provided us with extensive insight into the typical habits of various customer personas. We found that for many, they do not rely on notifications to track the progress of their delivery, but rather track via the map. For others, we found the complete opposite – they only know their delivery has arrived once the notification has popped up on their screen. For the robot interactions, we found that all participants were able to successfully retrieve their order with no assitance, showing us that our flow is intuitive – while their smiles showed us it was fun!
+
+        [choose asset]
+
+        Surveys
+        The final phase of this Buyer Interaction Study was conducting short online surveys. Once Serve hit the streets, or should I say sidewalks, it was harder and harder to evaluate the quality of the Buyer's experience. The best way to get at this without having to follow the robot and bother hungery people recieving their deliveries was to send out a survey via Braze emails. It's a good way to gain a general understanding of how the service is going and can inform future directions of research.
+
+    Cargo Design
+        Customers ordering from the Postmates app tend to all have at least one thing in common, they want their food to arrive as if the chef just placed it on their kitchen table. While Serve is no on-the-go chef, we have taken care to design a safe and secure cargo space that will ensure an order arrives in the best condition possible. To do this, we analyzed the most common order compositions and created a list of requirements to accomodate them all.
+
+        Based on these requirements, I created four potential configurations via a 3D graphics software. After a few tweeks here and there with my team, I created foamcore prototypes to put infront of a handful of our Merchants to get their feedback. 
+
+        [opposing photo could be collage of foamcore prototypes]
+
+        Getting interactive feedback from our merchants was an essential part of this design process. While they loaded a handful of mock orders into each cargo configuration, we were able to talk through their process, preferences, needs, and concerns. These conversations helped us to refine our design and settle on a single configuration that provides plenty of space for large orders, holds up to two drinks, and accomodates large pizzas. 
+
+        [opposing photo could be a moveable 3D animation of the final cargo?]
+
+    Pilot Experience Research
+        Reducing Cognitive Load
+            Pilots are responsible for attending to many key aspects of a delivery, including order information, dropoff deadlines, live-order customer support, and route optimizations. In order to build up many of the supporting systems that we have in place today, it was necessary to identify the many ways in which pilots attention was being split between tools and tasks. This required observations of live deliveries, user interviews, 
+
+            [Photo of cody from the bloomberg article]
+            
+            As our systems get more and more elegant, many of these responsibilities are 
+        Evaluating New Feature Releases
+

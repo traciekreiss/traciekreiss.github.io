@@ -277,8 +277,13 @@ footer {
 
 .footer_wrap {
     display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: relative;
+    /* top: -1.2em; */
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 
 .footer_text {
@@ -286,13 +291,17 @@ footer {
     flex-basis: 40%;
 }
 
+.footer_text > h2 {
+    margin-bottom: 1em;
+}
+
 .footer_text > p {
     line-height: 1.5em;
 }
 
 .footer_img {
-    background-image: url("../images/tracie_img.png");
-    background-size: 50%;
-    background-repeat: no-repeat;
     flex-basis: 40%;
+    max-width: 20em;
+    /* top: -3em; */
+
 }

@@ -122,7 +122,40 @@ a {
     padding-bottom: 1.5em;
 }
 
-#areas_of_work {
+#work_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 25%;
+    padding-bottom: 12em;
+}
+
+#work_container > .work_area_wrap {
+    flex-flow: column wrap;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 26%;
+}
+
+.work_img_wrap {
+    max-width: 50%;
+    margin: auto;
+}
+
+.work_img_wrap > img {
+    max-width: 100%;
+}
+
+.work_label_wrap {
+    font-size: 1.35em;
+    font-weight: 400;
+    /* letter-spacing: 1%; */
+    text-align: center;
+}
+
+
+
+/* #areas_of_work {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -142,12 +175,12 @@ a {
 .work > img {
     max-width: 100%;
     padding: 0 2.5em 0 2.5em;
-    /* min-width: 10em; */
-}
+    min-width: 10em;
+} */
 
 
 #portfolio {
-    margin: 5% 15%;
+    margin: 5% 20%;
     max-height: 100%;
 }
 
@@ -157,7 +190,7 @@ a {
 }
 
 .portfolio_container {
-    margin: 3em;
+    margin: 1em;
     border-radius: 1.5em; 
 }
 
@@ -224,7 +257,7 @@ a {
 }
 
 .portfolio_container_large {
-    margin: 3em;
+    margin: 1em;
     border-radius: 1.5em; 
     /* flex-direction: row-reverse;
     align-items: center;
@@ -235,7 +268,7 @@ a {
     align-items: center;
     position: relative;
     justify-content: space-between;
-    max-height: 24em;
+    max-height: 21em;
 }
 
 .portfolio_row_large > .portfolio_container_large {
@@ -245,14 +278,14 @@ a {
 
 .portfolio_container_large > .offset_wrap {
     position: relative;
-    top: -1em;
-    left: 7em;
+    top: -.4em;
+    left: 5.5em;
 }
 
 .portfolio_container_large > .text_wrapper {
     text-align: center;
     margin: 5% 0;
-    flex-basis: 65%;
+    flex-basis: 80%;
     width: 100%;
     /* padding: 0 4em; */
 }

@@ -153,40 +153,16 @@ a {
     text-align: center;
 }
 
-
-
-/* #areas_of_work {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin: 0 15%;
-    padding-bottom: 8em;
-    max-width: 100%;
-}
-
-.work {
-    flex-basis: 33%;
-    text-align: center;
-    padding: 1.5em 2em;
-    font-weight: 400;
-    font-size: 1.5em;
-}
-
-.work > img {
-    max-width: 100%;
-    padding: 0 2.5em 0 2.5em;
-    min-width: 10em;
-} */
-
-
 #portfolio {
-    margin: 5% 20%;
+    margin: 5% auto;
     max-height: 100%;
 }
 
 .portfolio_row {
     display: flex;
     flex-flow: row wrap;
+    max-width: 80%;
+    margin: auto;
 }
 
 .portfolio_container {
@@ -254,6 +230,8 @@ a {
 .portfolio_row_large {
     display: flex;
     flex-flow: row wrap;
+    max-width: 80%;
+    margin: auto;
 }
 
 .portfolio_container_large {
@@ -268,7 +246,7 @@ a {
     align-items: center;
     position: relative;
     justify-content: space-between;
-    max-height: 21em;
+    max-height: 27em;
 }
 
 .portfolio_row_large > .portfolio_container_large {
@@ -285,7 +263,7 @@ a {
 .portfolio_container_large > .text_wrapper {
     text-align: center;
     margin: 5% 0;
-    flex-basis: 80%;
+    flex-basis: 70%;
     width: 100%;
     /* padding: 0 4em; */
 }
@@ -383,58 +361,34 @@ footer {
     color: white;
 }
 
-@media only screen and (max-width: 1520px) {
-    #work_background > #areas_of_work > .work {
-        font-size: 1.25em;
-    }
+@media only screen and (max-width: 1600px) {
+    /* fix header squiggle */
 
-    #portfolio {
-        margin: 5% 10%;
-    }
 
-    .portfolio_container_large > .text_wrapper > p {
-        max-width: 100%;
-    }
-
+/* lock in sizing of portfolio section */
 }
 
 @media only screen and (max-width: 1350px) {
-    #work_background > #areas_of_work > .work {
-        font-size: 1.15em;
+    #work_background > #work_container > .work_area_wrap > .work_label_wrap {
+        font-size: 1.3em;
     }
-
-    .portfolio_container {
-        margin: 2em;
-    }
-
-    .portfolio_container_large {
-        margin: 2em;
-    }
-
-    .portfolio_container_large > .offset_wrap > .img_wrapper > .project_img {
-        width: 95%;
-    }
-
 }
 
 @media only screen and (max-width: 1175px) {
     /* add code for hamburger menu */
     
-    #work_title {
-        padding-bottom: 1em;
-    }
-    
+    /* turn areas of work into rotating widget */
     #work_background > #areas_of_work > .work {
         font-size: 1.1em;
-    }
-
-    #portfolio {
-        margin: 5% 5%;
     }
     
     footer > .footer_wrap > .footer_img_wrap > .footer_img {
         max-width: 25em;
     }
 
+
+}
+
+@media only screen and (max-width: 930px) {
 
 }

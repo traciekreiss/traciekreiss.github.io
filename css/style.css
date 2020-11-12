@@ -99,10 +99,6 @@
         background-size: cover;
         background-position: center center;
         height: 100vh;
-    }
-
-    .header_content_wrap {
-        margin-bottom: 4em;
         min-height: 43.75em;
         max-height: 54.375em;
         display: flex;
@@ -110,6 +106,10 @@
         justify-content: center;
         align-items: center;
         position: relative;
+    }
+
+    .header_content_wrap {
+        margin-bottom: 4em;
     }
 
     .header_title {
@@ -807,6 +807,8 @@
         padding-bottom: 3em;
         color: white;
     }
+
+    
 
 /* Media queries */
     @media only screen and (max-width: 1600px) {

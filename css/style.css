@@ -97,7 +97,7 @@
     #header_blobs {
         background-image: url("../images/header_blobs.svg");
         background-size: cover;
-        background-position: center center;
+        background-position: left center;
         height: 100vh;
         min-height: 43.75em;
         max-height: 54.375em;
@@ -116,6 +116,10 @@
         text-align: center;
     }
 
+    .header_title_small {
+        text-align: center;
+    }
+
     .header_subtitle {
         font-size: 1.5em;
         color: #464646;
@@ -125,7 +129,7 @@
 
     #bottom_squiggle {
         background-image: url("../images/squiggle_section.svg");
-        background-size: auto;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center bottom;
         width: 100%;
@@ -145,7 +149,7 @@
 
     #work_title {
         text-align: center;
-        padding-top: 1.5em;
+        /* padding-top: 1.5em; */
         padding-bottom: 1.5em;
     }
 
@@ -153,7 +157,7 @@
         display: flex;
         /* flex-flow: row wrap; */
         justify-content: space-around;
-        margin: 0 25%;
+        margin: 0 10%;
         /* padding-bottom: 12em; */
     }
 
@@ -174,21 +178,21 @@
     }
 
     .work_label_wrap {
-        font-size: 1.35em;
+        font-size: 1.25em;
         font-weight: 400;
         /* letter-spacing: 1%; */
         text-align: center;
     }
 
-    #portfolio {
+    /* #portfolio {
         margin: 5% auto;
         max-height: 100%;
-    }
+    } */
 
     .portfolio_row {
         display: flex;
         flex-flow: row wrap;
-        max-width: 80%;
+        /* max-width: 80%; */
         margin: auto;
     }
 
@@ -258,7 +262,7 @@
     .portfolio_row_large {
         display: flex;
         flex-flow: row wrap;
-        max-width: 80%;
+        /* max-width: 80%; */
         margin: auto;
     }
 
@@ -284,7 +288,7 @@
 
     .portfolio_container_large > .offset_wrap {
         position: relative;
-        top: -.4em;
+        top: -1.2em;
         left: 5.5em;
     }
 
@@ -753,6 +757,10 @@
         align-items: center;
         position: relative;
         justify-content: space-around;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer_text {
@@ -785,9 +793,10 @@
         margin-right: 2em;
         margin-top: 1em;
         border-radius: .5em;
+        width: max-content;
     }
 
-    /* 'copy' email address button */
+        /* 'copy' email address button */
 
     .footer_img_wrap {
         position: relative;
@@ -811,31 +820,71 @@
     
 
 /* Media queries */
-    @media only screen and (max-width: 1600px) {
-        /* fix header squiggle */
-
-
-    /* lock in sizing of portfolio section */
+    @media only screen and (max-width: 2560px) {
+       
+        .header_title_small {
+            display: none;
+        }
     }
 
-    /* @media only screen and (max-width: 1350px) {
-        #work_background > #work_container > .work_area_wrap > .work_label_wrap {
-            font-size: 1.3em;
+    @media only screen and (max-width: 2100px) {
+        .header_title_small {
+            display: none;
         }
-    } */
+    }
 
-    @media only screen and (max-width: 1175px) {
+
+    @media only screen and (max-width: 1015px) {
         /* add code for hamburger menu */
         
         /* turn areas of work into rotating widget */
         
-        footer > .footer_wrap > .footer_img_wrap > .footer_img {
-            max-width: 25em;
+        .header_title_small {
+            display: none;
         }
 
-
+        .footer_buttons_wrap {
+            flex-direction: column;
+            max-width: fit-content;
+        }
     }
 
-    @media only screen and (max-width: 930px) {
+    @media only screen and (max-width: 850px) {
+        body {
+            font-size: 17px;
+        }
+        
+        .header_title {
+            display: none;
+        }
 
+        .header_title_small {
+            display: inherit;
+        }
+
+        .portfolio_row_large {
+            display: flex;
+            flex-flow: row wrap;
+            /* max-width: 80%; */
+            margin: auto;
+        }
+
+        .portfolio_container_large > .offset_wrap {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            position: relative;
+            top: -1.2em;
+        }
+        
+        .portfolio_container_large > .offset_wrap > .img_wrapper > .project_img {
+            flex-basis: none;
+        }
+
+        .portfolio_container_large > .text_wrapper {
+            text-align: center;
+            flex-basis: none;
+            width: 100%;
+            max-width: 20em;
+            margin: 0 2em;
     }

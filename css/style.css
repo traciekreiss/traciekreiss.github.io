@@ -1015,6 +1015,14 @@
             margin-top: 0;
         }
 
+        .qa_card_container {
+            flex-direction: column;
+        }
+
+        .qa_card {
+            flex-direction: unset;
+        }
+
 }
 
     @media only screen and (max-width:720px) {

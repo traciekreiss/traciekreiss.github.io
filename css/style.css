@@ -419,7 +419,7 @@
     }
 
     .info_container {
-        margin-bottom: auto;
+        margin-bottom: 50px;
         /* line-height: 1.5em; */
     }
 
@@ -437,7 +437,11 @@
     }
 
     .buyer_stages_container {
-        display: flex;
+        display: grid;
+        width: 100%;
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 4fr));
+        margin-bottom: 50px;
     }
 
     .buyer_stages_card {
@@ -447,7 +451,7 @@
         text-align: center;
         border-radius: 1em;
         padding: 1.5em 1em;
-        margin: 2em 1em;
+        /* margin: 2em 1em; */
         box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
     }
 
@@ -495,6 +499,7 @@
         text-align: center;
         max-width: 75%;
         margin: auto;
+        margin-bottom: 50px;
     }
 
     .yellow_section > .offset_content_wrapper > .work_container > .work_img_wrap {
@@ -567,6 +572,7 @@
     .white_info_card_container {
         display: flex;
         justify-content: space-around;
+        margin-bottom: 50px;
     }
 
     .white_info_card {
@@ -575,6 +581,13 @@
     background-color: white;
     border-radius: 1em;
     width: 18.5em;
+    }
+
+    .white_info_card > h3 {
+        font-size: 1.75em;
+        line-height: normal;
+        padding-bottom: .5em;
+        padding-top: .5em;
     }
 
 .white_info_card > .work_img_wrap {
@@ -589,14 +602,18 @@
 }
 
 .media_cards_container {
-    display: flex;
+    display: grid;
+    width: 100%;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 4fr));
+    /* display: flex;
     cursor: pointer;
     max-width: 1500px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; */
     /* padding-right: 24px;
     padding-left: 24px; */
-    padding: 50px 24px;
+    /* padding: 50px 24px; */
 }
 
 .media_card {
@@ -604,15 +621,16 @@
     flex-direction: column;
     flex-basis: 25%;
     background-color: white;
-    width: 100%;
+    /* width: 100%; */
     box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px 0px;
     border-radius: 1em;
-    margin: 2em 1em;
+    /* margin: 2em 1em; */
     overflow: hidden;
 }
 
 .media_card > h4 {
     padding: 1.5em 1em 2em 1em;
+    line-height: 1.5em;
 }
 
 .media_card > img {
@@ -727,19 +745,17 @@
     }
 
     .project_images_container {
-        display: flex;
+        /* display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-around; */
+        display: grid;
+        width: 100%;
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+        /* margin-bottom: 50px; */
     }
 
-    .project_img_wrapper {
-        width: 18em;
-        margin-bottom: 2em;
-        margin-right: 1em;
-        margin-left: 1em;
-    }
-
-    .project_img_wrapper > img {
+    .project_images_container > div > img {
         max-width: 100%;
     }
 
@@ -847,6 +863,12 @@
             
         }
 
+        h1, h2, h3, h4 {
+            line-height: normal;
+            padding-bottom: .5em;
+            padding-top: .5em;
+        }
+
     }
 
     @media only screen and (max-width: 1015px) {
@@ -867,6 +889,14 @@
 
         .project_info_section {
             margin: 1em;
+        }
+
+        .media_cards_container {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+        }
+
+        .buyer_stages_container {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
         }
 
         /* .info_container_small > h2, h3, p {
@@ -961,15 +991,10 @@
             max-width: 75%;
         }
 
-        .buyer_stages_container {
-            display: block;
-            margin: auto;
-            max-width: 400px;
-        }
-
         .white_info_card_container {
             display: block;
-            margin: auto;
+            margin-left: auto;
+            margin-right: auto;
             max-width: 400px;
         }
 
@@ -1005,12 +1030,6 @@
             max-width: 60%;
         }
 
-        .media_cards_container {
-            display: block;
-            max-width: 400px;
-            padding: 0;
-        }
-
         .role_text > .main_width > .main_padding > .info_container {
             margin-top: 0;
         }
@@ -1022,6 +1041,18 @@
 
     @media only screen and (max-width:720px) {
         
+        .serve_img_container > img {
+            max-width: 100%;
+        }
+
+        .buyer_stages_container {
+            grid-template-columns: repeat(auto-fit, minmax(220px, 2fr));
+        }
+
+        .media_cards_container {
+            grid-template-columns: repeat(auto-fit, minmax(220px, 2fr));
+        }
+
         .footer_wrap {
             /* margin: auto; */
             padding-right: 24px;

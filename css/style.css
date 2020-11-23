@@ -658,7 +658,7 @@
     .role_container {
         justify-content: center;
         align-items: center;
-        height: 500px;
+        height: fit-content;
         }
 
     .role_background_blob {
@@ -719,7 +719,7 @@
 
     .uber_launch_content {
         max-width: 65%;
-        padding-left: 5em;
+        padding-left: 50px;
     }
 
 /* Projects page styling */
@@ -729,10 +729,6 @@
         background-image: url(../images/project_blobs.svg);
         background-size: cover;
         background-position: center center;
-        /* height: 80vh; */
-        /* background-size: cover;
-        background-position: center center;
-        height: 90vh; */
     }
 
     .projects_header_wrapper {
@@ -745,14 +741,10 @@
     }
 
     .project_images_container {
-        /* display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around; */
         display: grid;
         width: 100%;
         grid-gap: 30px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
-        /* margin-bottom: 50px; */
     }
 
     .project_images_container > div > img {
@@ -1012,6 +1004,10 @@
             flex-direction: column-reverse;
         }
 
+        .info_row_content {
+            max-width: 100%;
+        }
+
         .row_content_right {
             padding-right: 0;
             padding-top: 1em;
@@ -1027,7 +1023,7 @@
         }
 
         .info_row_img_container {
-            max-width: 60%;
+            max-width: 100%;
         }
 
         .role_text > .main_width > .main_padding > .info_container {
@@ -1051,6 +1047,16 @@
 
         .media_cards_container {
             grid-template-columns: repeat(auto-fit, minmax(220px, 2fr));
+        }
+
+        .uber_launch_container {
+            flex-direction: column;
+        }
+
+        .uber_launch_content {
+            max-width: unset;
+            padding-left: 0;
+            margin-top: 50px;
         }
 
         .footer_wrap {

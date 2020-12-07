@@ -404,12 +404,14 @@
     }
 
     .serve_img_container {
-        display: flex;
+        /* display: flex; */
+        position: relative;
         margin-right: 2em;
+        max-width: 395px;
     }
 
     .serve_img_container > img {
-        max-width: 350px;
+        width: 100%;
     }
 
     .serve_info_container {

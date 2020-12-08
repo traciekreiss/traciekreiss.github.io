@@ -1,8 +1,12 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    var hamburger = document.getElementById("global_nav_right_ham");
+document.addEventListener('DOMContentLoaded', () => {
+    var hamburger = document.getElementById("global_nav_right_ham")
     var mobileNav = document.getElementById("global_ham_links")
+    var desktopNav = document.getElementsByClassName("global_nav_right")
 
-    hamburger.addEventListener("click", (e) => {
+    mobileNav.innerHTML = desktopNav[0].innerHTML
+    // console.log(desktopNav[0].innerHTML)
+
+    hamburger.addEventListener("click", () => {
         if (mobileNav.classList.contains("open")) {
             mobileNav.classList.remove("open")
             hamburger.classList.remove("open")
@@ -10,5 +14,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
             mobileNav.classList.add("open")
             hamburger.classList.add("open")
         }
-    });
+    })
 })

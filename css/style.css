@@ -158,6 +158,10 @@
     }
 
 /* Index.html styling */
+    #hidden_image {
+        display: none;
+    }
+
     #header_blobs {
         background-image: url("../images/header_blobs.svg");
         background-size: cover;

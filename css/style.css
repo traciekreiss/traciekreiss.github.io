@@ -1112,6 +1112,23 @@
 
     @media only screen and (max-width:720px) {
         
+        #work_background {
+            background-color: #EDF6FF;
+            height: auto;
+        }
+
+        #work_title {
+            margin-bottom: none;
+        }
+
+        .work_container {
+            flex-direction: column;
+        }
+        
+        .work_area_wrap {
+            margin-bottom: 10%;
+        }
+
         .serve_img_container > img {
             max-width: 100%;
         }

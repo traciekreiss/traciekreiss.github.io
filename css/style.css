@@ -377,6 +377,7 @@
 
     .portfolio_container_large > .text_wrapper > p {
         line-height: 2em;
+        color: #464646;
         /* max-width: 70%;
         margin: auto; */
     }

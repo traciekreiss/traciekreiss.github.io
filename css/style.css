@@ -320,28 +320,17 @@
         display: block;
     }
 
-    .portfolio_container > .img_wrapper {
-        
-
-    }
-
     .project_img {
         max-width: 100%;
     }
 
     .portfolio_row_large {
-        /* display: flex;
-        flex-flow: row wrap; */
-        /* max-width: 80%; */
         margin: auto;
     }
 
     .portfolio_container_large {
         margin: 1em;
         border-radius: 1.5em; 
-        /* flex-direction: row-reverse;
-        align-items: center;
-        position: relative; */
         padding: 0 10%;
         display: flex;
         flex-flow: row-reverse;
@@ -367,7 +356,6 @@
         margin: 5% 0;
         flex-basis: 70%;
         width: 100%;
-        /* padding: 0 4em; */
     }
 
     .portfolio_container_large > .text_wrapper > h2 {
@@ -377,8 +365,7 @@
 
     .portfolio_container_large > .text_wrapper > p {
         line-height: 2em;
-        /* max-width: 70%;
-        margin: auto; */
+        color: #464646;
     }
 
     .portfolio_container_large > .text_wrapper > a {
@@ -389,7 +376,6 @@
     }
 
     .portfolio_container_large > .offset_wrap > .img_wrapper {
-        /* max-width: 45%; */
         max-width: 100%;
     }
 
@@ -405,7 +391,6 @@
     }
 
     .back_arrow {
-    /* padding: 2em; */
     width: fit-content;
     align-items: unset;
     }
@@ -415,11 +400,8 @@
     }
 
     .project_header {
-        /* display: flex;
-        flex-flow: row wrap; */
         align-items: center;
         justify-content: space-around;
-        /* margin: 0 10%; */
     }
 
     .project_header > .project_title_container {
@@ -459,10 +441,6 @@
         max-width: 320px;
     }
 
-    /* .project_info_section > h3 {
-        padding-bottom: .5em;
-    } */
-
     .section_wrapper {
         margin: 5% 20%;
     }
@@ -492,12 +470,7 @@
 
     .info_container {
         margin-bottom: 50px;
-        /* line-height: 1.5em; */
     }
-
-    /* .info_container > h2, h3, p, ul {
-        padding: .5em 0;
-    } */
 
     .info_container > p, ul {
         line-height: 1.5em;
@@ -1071,9 +1044,9 @@
             width: unset;
         }
 
-        /* .info_container{
-            margin-top: 3em;
-        } */
+        .info_center {
+            max-width: 100%;
+        }
 
         .info_row_wrapper_right {
             flex-direction: column-reverse;

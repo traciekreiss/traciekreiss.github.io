@@ -212,7 +212,7 @@
 
     #work_background {
         background-color: #EDF6FF;
-        height: 65vh;
+        /* height: 65vh; */
         /* min-height: 58em; */
         /* width: 100%; */
     }
@@ -254,10 +254,15 @@
         text-align: center;
     }
 
-    /* #portfolio {
-        margin: 5% auto;
-        max-height: 100%;
-    } */
+    .portfolio_padding {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #portfolio {
+       padding-top: 60px;
+       padding-bottom: 60px;
+    }
 
     .portfolio_row {
         display: flex;
@@ -267,8 +272,14 @@
     }
 
     .portfolio_container {
-        margin: 1em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-right: 1.75em;
         border-radius: 1.5em; 
+    }
+
+    .portfolio_container#zola {
+        background-color: #FAE1E6;
     }
 
     .portfolio_container#postmates {
@@ -279,9 +290,13 @@
         background-color: #C0CCE0;
     }
 
-    .portfolio_container_large#projects {
-        background-color: #FFECEF;
+    .portfolio_container#projects {
+        background-color: #A1BBC4;
     }
+
+    /* .portfolio_container_large#projects {
+        background-color: #FFECEF;
+    } */
 
     .portfolio_row > .portfolio_container{
         flex-grow: 1;
@@ -324,7 +339,7 @@
         max-width: 100%;
     }
 
-    .portfolio_row_large {
+    /* .portfolio_row_large {
         margin: auto;
     }
 
@@ -382,7 +397,7 @@
     .portfolio_container_large > .offset_wrap > .img_wrapper > .project_img {
         flex-basis: 45%;
         width: 100%;
-    }
+    } */
 
 /* Postmates.html styling */
     #postmates_header {

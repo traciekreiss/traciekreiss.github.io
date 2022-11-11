@@ -1,4 +1,7 @@
 /* Global styling */
+
+    @import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap&family=family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Trirong:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
     @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
     * {
@@ -19,12 +22,12 @@
         background-color: white;
         font-size: 18px;
         font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Raleway', sans-serif;
         line-height: 1.5em;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: 'Aleo', serif;
+        font-family: 'Trirong', serif;
         line-height: 2em;
         
     }
@@ -69,7 +72,7 @@
         flex-basis: 50%;
         text-align: left;
         padding: 1.5em;
-        font-family: 'Aleo', serif;
+        font-family: 'Trirong', serif;
         font-weight: bold;
         letter-spacing: .15em;
     }
@@ -399,6 +402,13 @@
         width: 100%;
     } */
 
+    /* Zola.html styling */
+    #zola_header {
+        background-color: #FAE1E6;
+        min-height: 90vh;
+    }
+
+    
 /* Postmates.html styling */
     #postmates_header {
         background-color: #FAD9A5;

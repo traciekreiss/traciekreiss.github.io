@@ -21,16 +21,86 @@
     </head>
 
     <body>
-        <div class="wrapper">
+        <div class="hero_wrapper">
             <header class="global_nav"> 
                 <nav class="global_nav_left">
                     <a href="/">TMK</a>
                 </nav>
                 <nav class="global_nav_right">
-                    <!-- <a href="#">About Me</a> -->
                     <a href="https://www.linkedin.com/in/tracie-kreiss/">LinkedIn</a>
                     <a href="https://github.com/traciekreiss">Github</a>
-                    <!-- <a href="https://www.behance.net/traciekreiss">Behance</a> -->
+                </nav>
+                <div id="global_nav_right_ham">
+                  <div class="ham_line l1"></div>
+                  <div class="ham_line l2"></div>
+                  <div class="ham_line l3"></div>
+                </div>
+                <nav id="global_ham_links" class="">
+                </nav>
+            </header> 
+            <section id="postmates_hero_blobs">
+                <div class="hero_main">
+                    <div class="hero_left">
+                        <div class="hero_hed">
+                            <h1>Designing the future of delivery</h1>
+                            <h4 class="h_sans_serif">Designer & Researcher at Postmates</h4>
+                        </div>
+                    </div>
+                    <div class="hero_project_img">
+                        <img class='img_formatting' src="images/me_with_Serve.jpg">
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section class="project_role_info_section" style="background-color: #F6F5F0;">
+                <div class="project_role_info_spacing">
+                    <div class="project_role_info_row">
+                        <h3>Postmates</h3>
+                        <div class="role_columns">
+                            <div class="role_sub"> 
+                                <p>Product Designer & Researcher</p>
+                                <p>2019-2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_role_info_row">
+                        <h3>Product areas</h3>
+                        <div class="role_columns">
+                            <div class="role_sub">
+                                <p>Buyer experience</p>
+                                <p>Cargo design and testing</p>
+                                <p>Pilot experience research</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_role_info_row">
+                        <h3>Skills used</h3>
+                        <div class="role_columns">
+                            <div class="role_sub">
+                                <p>UX/UI design</p>
+                                <p>User research</p>
+                                <p>Prototyping</p>
+                                <p>Product planning</p>
+                            </div>
+                            <div class="role_sub">
+                                <p>3D modeling</p>
+                                <p>Industrial design</p>
+                                <p>Hardware design</p>
+                                <p>CMF</p>
+                            </div>
+                        </div>
+                </div>
+            </section>  
+
+
+        <!-- <div class="wrapper">
+            <header class="global_nav"> 
+                <nav class="global_nav_left">
+                    <a href="/">TMK</a>
+                </nav>
+                <nav class="global_nav_right">
+                    <a href="https://www.linkedin.com/in/tracie-kreiss/">LinkedIn</a>
+                    <a href="https://github.com/traciekreiss">Github</a>
                 </nav>
                 <div id="global_nav_right_ham">
                   <div class="ham_line l1"></div>
@@ -73,7 +143,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        
         <section class="main_width main_padding">
             <div class="serve_description_wrapper">
                 <div class="serve_img_container">
@@ -108,7 +180,7 @@
                     <img src="images/buyer_rover_screen.png">
                 </div>
                 <div class="cargo_section main_width">
-                    <div class="info_container_small">
+                    <div class="info_container_small" style="text-align: center; margin-bottom: 4em">
                         <h2>Cargo Design</h2>
                         <p>Customers ordering from the Postmates app tend to all have at least one thing in common, they want their food to arrive as if the chef just placed it on their kitchen table. While Serve is no on-the-go chef, we have taken care to design a safe and secure cargo space that will ensure an order arrives in the best condition possible. </p>
                     </div>
@@ -203,28 +275,28 @@
                         <h4>Stage One</h4>
                         <hr>
                         <img src="images/proto_test.svg">
-                        <h4>Prototype Testing</h4>
+                        <h5 class="h_sans_serif">Prototype Testing</h5>
                         <p>Validated the user flow with in-house prototype testing</p>
                     </div>
                     <div class="buyer_stages_card">
                         <h4>Stage Two</h4>
                         <hr>
                         <img src="images/beta_test.svg">
-                        <h4>Beta Testing</h4>
+                        <h5 class="h_sans_serif">Beta Testing</h5>
                         <p>Performed mock deliveries for Testers using a complicated wizarding system</p>
                     </div>
                     <div class="buyer_stages_card">
                         <h4>Stage Three</h4>
                         <hr>
                         <img src="images/prod_test.svg">
-                        <h4>Production Testing</h4>
+                        <h5 class="h_sans_serif">Production Testing</h5>
                         <p>Observed real Buyers placing and recieving orders that we fulfilled using Serve</p>
                     </div>
                     <div class="buyer_stages_card">
                         <h4>Stage Four</h4>
                         <hr>
                         <img src="images/survey.svg">
-                        <h4>Surveys</h4>
+                        <h5 class="h_sans_serif">Surveys</h5>
                         <p>Email surveys go out regularly, so that we never lose sight of the quality of our Buyers’ experience</p>
                     </div>
                 </div>
@@ -261,6 +333,9 @@
         
         <footer>
             <div class="footer_wrap">
+                <div class="footer_img_wrap">
+                    <img src="images/tracie_img.png" class="footer_img">
+                </div>
                 <div class="footer_text">
                     <h2>About Me</h2>
                     <p>
@@ -278,11 +353,8 @@
                     </div>
                     <!-- <p>Location: San Francisco</p> -->
                 </div>
-                <div class="footer_img_wrap">
-                  <img src="images/tracie_img.png" class="footer_img">
-                </div>
             </div>
-            <p class="copy_right">Made by Tracie Marie Kreiss &copy; 2022</p>
+            <p class="copy_right">Designed & coded by Tracie Marie Kreiss &copy; 2022</p>
           </footer>
     </header>
 

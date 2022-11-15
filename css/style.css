@@ -378,10 +378,10 @@
         margin-bottom: 40px;
     }
 
-    #portfolio {
-/*        padding-top: 60px;
-       padding-bottom: 60px; */
-    }
+/*     #portfolio {
+       padding-top: 60px;
+       padding-bottom: 60px;
+    } */
 
     .portfolio_row {
         display: flex;
@@ -833,8 +833,6 @@
             .hero_project_img {
                 display:inherit;
             } */
-
-      }
       
 
       
@@ -1541,9 +1539,9 @@
             font-weight: 500;
         }
 
-        .serve_gif_wrapper {
+ /*        .serve_gif_wrapper {
             
-        }
+        } */
 
         .project_button_wrap {
             justify-content: space-around;

@@ -593,12 +593,35 @@
 
     .hero_left {
         display: flex;
-        /* flex-direction: column; */ /* no longer needed if no back arrow */
+        flex-direction: column;
+        justify-content: center;
         flex: 1;
         max-width: 50%;
         padding-left: 2em;
         padding-right: 2em;
       }
+
+      .hero_company_logo {
+        display: flex;
+        justify-content: center;
+      }
+
+      #postmates_hero_blobs > .hero_main > .hero_left > .hero_company_logo {
+        max-height: 16vh;
+      }
+
+      #zola_hero_blobs > .hero_main > .hero_left > .hero_company_logo {
+        max-height: 8vh;
+      }
+
+
+      #uber_hero_blobs > .hero_main > .hero_left > .hero_company_logo {
+        max-height: 8vh;
+      }
+/* 
+      .hero_company_logo > img {
+        height: 20vh;
+      } */
 
 /*     .back_arrow {
         width: fit-content;
@@ -1696,6 +1719,10 @@
         .hero_left {
             max-width: 100%;
         }
+/* 
+        .hero_company_logo {
+            display: none;
+        } */
 
         .hero_main > .hero_project_img {
         display: none;

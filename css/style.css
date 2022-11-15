@@ -567,6 +567,7 @@
         justify-content: left;
         align-items: center;
         position: relative;
+        background-repeat: no-repeat;
     }
 
     .hero_left {

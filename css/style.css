@@ -654,6 +654,15 @@
         margin-left: 1em;
         color: #656565;
     }    
+
+    .role_sub_zola_styles > p {
+        color: #526C7F; 
+    }
+
+    .role_sub_zola_styles > li {
+        color: #526C7F; 
+    }
+
 /*     .project_role_info_row > .role_columns > .role_sub > p {
         padding-bottom: .5em;
     } */
@@ -753,7 +762,28 @@
         width: 100%;
         border-radius: 14px;
     }
-    
+
+    .vm > .white_info_card_container {
+        margin-bottom: 0em;
+    }
+
+    .vm > .white_info_card_container >.white_info_card > .work_img_wrap {
+        padding-bottom: 1em;
+    }
+
+    .rw_case_study > .vm_hed > h2 {
+        line-height: 1.25em; 
+        margin-bottom:.5em
+    }
+
+    .rw_case_study > .vm_hed > .info_row_img_container {
+        margin-bottom: 2em;
+    }
+
+    .zola_description_wrapper_left > .serve_img_container {
+        max-width: 340px;
+        height: 620px;
+    }
 
 /*       @media only screen and (max-width: 1015px) {
             .hero_project_img {

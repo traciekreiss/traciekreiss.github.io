@@ -43,21 +43,25 @@
     h2 {
         font-size: 2.78em;
         font-weight: 500;
+        line-height: 1.5em;
     }
 
     h3 {
         font-size: 2em;
         font-weight: 500;
+        line-height: 1.5em;
     }
 
     h4 {
         font-size: 1.5em;
         font-weight: 400;
+        line-height: 1.5em;
     }
 
     h5 {
         font-size: 1.25em;
         font-weight: 400;
+        line-height: 1.5em;
     }
 
     .h_sans_serif {
@@ -729,7 +733,9 @@
 /*         margin-left: 2.5em;
         margin-right: 2.5em; */
         margin-bottom: 2.5em;
+        gap: 1em;
     }
+    
 
     .vm_dek_spacing {
         margin-left: 4em;

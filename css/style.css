@@ -219,6 +219,7 @@
     }
 
     /* Animated text */
+    
                 .rotatingText-adjective {
                     /* font-family: "Open Sans", sans-serif; */
                     /* font-size: 40px; */
@@ -315,6 +316,9 @@
         z-index: -1;
     } */
 
+
+    
+
     #work_background {
         background-color: #F6F5F0;
 /*         height: 65vh;
@@ -325,7 +329,7 @@
     #work_title {
         text-align: center;
         /* padding-top: 1.5em; */
-        /* padding-bottom: 1.5em; */
+        padding-bottom: 1.5em;
     }
 
     .work_container {
@@ -399,7 +403,7 @@
     }
 
     .portfolio_container#postmates {
-        background-color: #FFF9CA;
+        background-color: #F5ECB7;
     }
 
     .portfolio_container#uber {
@@ -452,18 +456,35 @@
     }
 
     .project_img {
-        max-width: 250px;
+        max-width: 272px;
         height: 55vh;
         object-fit: scale-down;
     }
 
     .serve_gif_wrapper {
-        max-width: 205px;
+        max-width: 272px;
         min-width: 232px;
-        height: 45vh;
+        height: 55vh;
         object-fit: cover;
         border-radius: 16px;
         border: 2px #000000 solid;
+    }
+
+    .project_button_wrap {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        flex: start;
+    }
+
+    .project_button {
+        background-color: white;
+        padding: 1em 2em;
+        margin-top: 1em;
+        text-align: center;
+        border-radius: 100px;
+        width: max-content;
     }
 
 /*     .img_wrapper {
@@ -1327,12 +1348,18 @@
 
     .footer_button {
         background-color: white;
-        padding: 1em;
+        padding: 1em 2em;
         margin-right: 2em;
         margin-top: 1em;
         border-radius: 100px;
-        width: max-content;
+        width: 225px;
+        text-align: center;
     }
+
+    .zoom a:hover{
+        transform: scale(1.1);
+        transition: all ease 500ms;
+      }
 
         /* 'copy' email address button */
 
@@ -1495,6 +1522,17 @@
             
         }
 
+        .project_button_wrap {
+            justify-content: space-around;
+            margin: 1em 1em 0em 1em;
+        }
+
+        .project_button {
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+
 /*         .portfolio_row_large {
             margin: auto;
         }
@@ -1639,6 +1677,12 @@
             background-repeat: no-repeat;
         }
 
+        .project_button {
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+
         .hero_main {
             display: flex;
             flex-flow: column-reverse;
@@ -1680,8 +1724,10 @@
         } */
 
         #work_title {
-            margin-bottom: none;
+            margin-bottom: 2em;
         }
+
+        
 
         .work_container {
             flex-direction: column;

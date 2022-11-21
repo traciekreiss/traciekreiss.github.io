@@ -1,8 +1,6 @@
 /* Global styling */
 
-    @import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap&family=family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Trirong:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
-
-    @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
     * {
         padding: 0;
@@ -23,14 +21,15 @@
     body {
         background-color: white;
         font-size: 18px;
-        font-weight: 400;
-        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
         line-height: 1.5em;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: 'Trirong', serif;
+        font-family: 'Caladea', serif;
         line-height: 2em;
+        font-weight: 500;
         
     }
 
@@ -65,10 +64,10 @@
     }
 
     .h_sans_serif {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
         line-height:1.5em;
-        margin-bottom: 1em;
+        margin-bottom: .25em;
     }
 
     header a{
@@ -92,7 +91,7 @@
         flex-basis: 50%;
         text-align: left;
         padding: 1.5em;
-        font-family: 'Trirong', serif;
+        font-family: 'Caladea', serif;
         font-weight: bold;
         letter-spacing: .15em;
     }
@@ -209,6 +208,7 @@
 
     .header_title {
         text-align: center;
+        font-size: 5em;
     }
 
     .header_title_small {
@@ -219,7 +219,7 @@
         font-size: 1.5em;
         color: #464646;
         text-align: center;
-        padding: 1em;
+        /* padding: 1em; */
     }
 
     /* Animated text */
@@ -333,7 +333,7 @@
     #work_title {
         text-align: center;
         /* padding-top: 1.5em; */
-        padding-bottom: 1.5em;
+        padding-bottom: .5em;
     }
 
     .work_container {
@@ -376,6 +376,14 @@
         font-weight: 400; */
 /*         text-align: center; */
     }
+
+    .work_label_wrap > p {
+        color: #656565;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+
 
     .portfolio_padding {
         margin-top: 40px;
@@ -986,12 +994,12 @@
         /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25); */
     }
 
-    .buyer_stages_card > h4 {
-        line-height: 1.5em;
+    .buyer_stages_card > .h_sans_serif {
+        margin-bottom: .25em;
     }
 
     .buyer_stages_card > hr {
-        border: 2px solid black;
+        border: 1px solid black;
         margin: .5em;
     }
 
@@ -1002,7 +1010,8 @@
 
     .buyer_stages_card > p {
         color: #656565;
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 1.5em;
     }
 
     #serve_role {
@@ -1121,11 +1130,21 @@
     /* width: 18.5em; */
     }
 
-    .white_info_card > h3 {
+    /* .white_info_card > h3 {
         font-size: 1.75em;
         line-height: 1em;
         padding-bottom: .5em;
         padding-top: .5em;
+    } */
+
+    .white_info_card > p {
+        color: #656565;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    .white_info_card > .h_sans_serif {
+        margin-bottom: .25em;
     }
 
 .white_info_card > .work_img_wrap {
@@ -1379,7 +1398,7 @@
         margin-right: 2em;
         margin-top: 1em;
         border-radius: 100px;
-        width: 225px;
+        min-width: 225px;
         text-align: center;
     }
 

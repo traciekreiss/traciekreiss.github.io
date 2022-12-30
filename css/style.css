@@ -906,12 +906,16 @@
         background-color: #F9F9F9;
     }
 
-    .blue_cs_container {
+    .aqua_cs_container {
         background-color: #C3DEE9;
     }
 
     .green_cs_container {
         background-color: #CCDDDE;
+    }
+
+    .blue_cs_container {
+        background-color: #B7CEDA;
     }
 
     .case_study_wrapper {

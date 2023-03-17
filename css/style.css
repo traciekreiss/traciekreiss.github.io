@@ -1518,6 +1518,7 @@
         flex-basis: 35%;
         width: 100%;
         max-width: 20em;
+        border-radius: 16px;
     }
 
     .copy_right {
